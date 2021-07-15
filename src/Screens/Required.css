@@ -1,0 +1,67 @@
+.user-info {
+  display: block;
+  padding: 1em 1em 1em 1em;
+  background-color: var(--panel);
+  box-shadow: 0px 0px 16px 2px rgb(0 0 0 / 30%);
+  max-width: 380px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: left;
+}
+.user-info h2 {
+  color: #d30000;
+  font-weight: 500;
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+.user-info p {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 100;
+}
+.user-info input {
+  width: 100%;
+  border: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #8790a3;
+  background-color: transparent;
+  transition: border-color 0.75s;
+  color: #8c8c92;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px 0;
+}
+.user-info input::placeholder {
+  color: #8c8c92;
+}
+#ethnicity-2 {
+  display: none;
+}
+.form-footer {
+  margin-bottom: 1em;
+}
+.main-login select {
+  width: 100%;
+  border: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #8790a3;
+  background-color: transparent;
+  transition: border-color 0.75s;
+  color: #2e2e2f;
+  font-weight: 600;
+  padding: 6px 0;
+}
+#activate {
+  width: 350px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0.6em;
+}
+/* ========================== Media Query ========================== */
+@media only screen and (max-width: 499px) {
+  #activate {
+    width: 100%;
+  }
+}

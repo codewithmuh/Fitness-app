@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 1.5;
+}
+:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+.main-login {
+  width: 100%;
+  height: 120vh;
+  background: radial-gradient(circle, #e03737 0%, #160101 100%);
+  padding: 2em;
+}
+.signin-logo-image {
+  width: 313px;
+  height: 131px;
+  margin: 10px auto 20px;
+}
+.signin-logo-image img {
+  width: 313px;
+  height: 131px;
+}
+.login {
+  padding: 1em 1em 1em 1em;
+  background-color: var(--panel);
+  box-shadow: 0px 0px 16px 2px rgb(0 0 0 / 30%);
+  max-width: 380px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: left;
+}
+.login h2 {
+  color: #d30000;
+  font-weight: 500;
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+.login p {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 100;
+}
+.login input {
+  width: 100%;
+  border: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #8790a3;
+  background-color: transparent;
+  transition: border-color 0.75s;
+  color: #8c8c92;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px 0;
+}
+.login input::placeholder {
+  color: #8c8c92;
+}
+.form-footer {
+  margin-top: 32px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.form-footer a {
+  color: #d30000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+.signup-btn-main {
+  text-align: right;
+}
+.lozenge {
+  background: #d30000;
+  color: #fff;
+  width: 120px;
+  border: none;
+  font-size: 13px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  min-width: 100px;
+}
+.register {
+  margin-top: 1em;
+  padding-top: 1em;
+  text-align: center;
+  border-top: 1px solid #c0c0c0;
+  color: #000;
+}
+.register a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+p.hint {
+  color: #c0c0c0;
+}
+.login input[type="radio"] {
+  width: 2em;
+}
+p.checkbox {
+  margin-bottom: 0.3em;
+}
+/* ========================== Media Query ========================== */
+@media only screen and (max-width: 499px) {
+  .signin-logo-image {
+    width: 220px;
+    height: 90px;
+  }
+  .signin-logo-image img {
+    width: 220px;
+    height: 90px;
+  }
+}

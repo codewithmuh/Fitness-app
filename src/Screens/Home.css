@@ -1,0 +1,267 @@
+body {
+  overflow-x: hidden;
+}
+/* ================ Post Right Sidebar ================ */
+.port-right-sidebar {
+  width: 77%;
+  display: flex;
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+.man-image {
+  width: 100px;
+  height: 101px;
+  background: url("./Images/profile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: top center;
+  box-shadow: 0px 3px 18px #00000029;
+}
+.right-side-col {
+  width: 70%;
+  padding: 40px;
+}
+.intor-profile {
+  display: flex;
+  justify-content: center;
+}
+.intro-profile-content {
+  padding: 20px 30px;
+  text-align: left;
+  width: 320px;
+}
+.intro-profile-content h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.intro-profile-content p {
+  font-size: 14.5px;
+  color: #707070;
+  margin-bottom: 0;
+  line-height: 2.1;
+  text-transform: capitalize;
+}
+.intro-pfi-btn {
+  background: #d30000;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 19px;
+  padding: 6px 15px;
+  margin: 15px 3px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.intor-profile-btns .intro-pfi-btn:first-child {
+  margin-left: 0;
+}
+.intor-bottom-content {
+  text-align: left;
+  padding: 30px 0 0;
+}
+.intor-bottom-content p {
+  color: #707070;
+  font-size: 17px;
+}
+.intor-bottom-content ul li {
+  color: #707070;
+  font-size: 17px;
+  list-style: none;
+}
+.intor-bottom-content ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  color: #000;
+  font-size: 20px;
+}
+.download-text {
+  text-align: left;
+}
+.download-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.robot-icon img {
+  width: 22px;
+  height: 27px;
+}
+.download-text p {
+  color: #707070;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 6px 0 0 14px;
+}
+.download-btn-main {
+  padding-top: 15px;
+}
+.download-btn {
+  width: 100%;
+  background: #d30000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 0;
+  font-size: 17px;
+}
+.download-box {
+  padding-left: 16%;
+  padding-top: 150px;
+}
+.left-side-col {
+  width: 35%;
+  padding: 40px;
+}
+.print-card {
+  box-shadow: 0px 3px 30px #00000029;
+  padding: 30px;
+}
+.scaner {
+  text-align: center;
+}
+.scan-img img {
+  width: 100%;
+  height: auto;
+}
+.scaner h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 20px 0;
+}
+.scan-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  text-align: center;
+}
+.scan-text h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.scan-text {
+  margin: 0 5px;
+}
+.scan-text p {
+  color: #707070;
+  font-size: 15px;
+}
+.print-code {
+  padding-top: 100px;
+}
+.print-code-btn {
+  background: #d30000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: 15px;
+  width: 100%;
+}
+.download-code {
+  padding: 35px 0;
+}
+.download-code-btn {
+  border: none;
+  color: #fff;
+  background: #d30000;
+  padding: 8px 20px;
+  border-radius: 19px;
+  font-size: 14px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.andriod-logo-img {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.andriod-logo-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1350px) {
+  .scan-text h5 {
+    font-size: 18px;
+  }
+  .scan-text p {
+    font-size: 12px;
+  }
+  .scan-content {
+    padding-top: 20px;
+  }
+  .print-code {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .port-right-sidebar {
+    flex-direction: column;
+  }
+  .right-side-col {
+    width: 100%;
+    padding: 25px;
+  }
+  .scan-text h5 {
+    font-size: 18px;
+  }
+  .scan-text p {
+    font-size: 12px;
+  }
+  .port-left-sidebar {
+    display: none;
+  }
+  .port-right-sidebar {
+    width: 100%;
+  }
+  .intor-profile {
+    justify-content: flex-start;
+  }
+  .print-card {
+    padding: 10px;
+    width: 320px;
+    margin: auto;
+  }
+  .left-side-col {
+    padding: 25px;
+  }
+  .left-side-col {
+    width: 100%;
+  }
+  .andriod-logo-img img {
+    width: 300px;
+    height: auto;
+  }
+  .download-box {
+    padding-left: 0;
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .intor-profile {
+    flex-direction: column;
+  }
+  .intro-profile-content {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .man-image {
+    margin: auto;
+  }
+  .print-card {
+    width: 240px;
+  }
+  .andriod-logo-img img {
+    width: 200px;
+  }
+  .left-side-col {
+    padding: 25px 0;
+  }
+}

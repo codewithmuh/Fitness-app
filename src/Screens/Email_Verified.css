@@ -1,0 +1,42 @@
+.profile-image-upload {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.profile-photo {
+  display: none;
+}
+.profile-image-upload .lozenge {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 9px 10px;
+}
+.profile-proof {
+  display: none;
+}
+.profile-image-upload .lozenge.outline {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 9px 10px;
+  background: transparent;
+  color: #d30000;
+  border: 2px solid #d30000;
+}
+.form-footer {
+  margin-bottom: 1em;
+}
+.x-signin.x-activate.lozenge {
+  width: 350px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0.5em;
+}
+p.form-info {
+  font-size: 14px;
+  color: #2e2e2f;
+  font-weight: 600;
+}

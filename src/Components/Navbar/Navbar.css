@@ -1,0 +1,49 @@
+.navbar img {
+  width: 210px;
+  height: 82px;
+}
+.navbar {
+  width: 100%;
+  padding: 5px 80px;
+  box-shadow: 0px 3px 6px #00000029;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+}
+.menu-icon {
+  display: none;
+}
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.menu-icon i {
+  margin-right: 20px;
+  color: #d30000;
+  font-size: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .navbar {
+    padding: 5px 40px;
+  }
+  .menu-icon {
+    align-items: center;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .navbar {
+    display: flex;
+  }
+  .navbar img {
+    width: 170px;
+    height: 60px;
+  }
+  .nav-logo {
+    margin: auto;
+  }
+  .menu-icon i {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,78 @@
+.port-left-sidebar {
+  width: 23%;
+  background: #d30000;
+  position: fixed;
+  height: 100vh;
+  box-shadow: 1px 1px 6px 2px #00000029;
+  top: 90px;
+}
+.profile-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0;
+  color: #fff;
+}
+.profile-img {
+  width: 100px;
+  height: 101px;
+  background: url("../../Screens/Images/profile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: top center;
+}
+.profile-box h2 {
+  font-size: 16px;
+  font-family: Arial;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  padding-top: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.profile-box p {
+  font-size: 15px;
+  font-weight: 100;
+}
+.sidebar-menu ul {
+  margin-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.sidebar-menu ul li {
+  list-style: none;
+  text-align: left;
+  padding: 20px 45px;
+  margin-bottom: 5px;
+}
+.sidebar-menu ul li a {
+  color: #fff;
+  font-weight: 400;
+}
+.sidebar-menu ul li a i {
+  margin-right: 12px;
+}
+.sidebar-menu ul li.active {
+  background: #fff;
+}
+.sidebar-menu ul li.active a {
+  color: #d30000;
+  font-weight: 600;
+}
+.sidebar-menu ul li:hover {
+  background: #fff;
+}
+.sidebar-menu ul li:hover a {
+  color: #d30000;
+  font-weight: 600;
+}
+@media only screen and (max-width: 991px) {
+  .port-left-sidebar {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+}
